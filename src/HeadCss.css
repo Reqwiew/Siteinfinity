@@ -1,0 +1,198 @@
+.headers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter , sans-serif;
+    background: #4A2B33;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 5rem;
+    margin: 0 auto;
+
+}
+.logos a{
+    font-family: Inter , sans-serif;
+    text-decoration: none;
+    color: #D27487;
+}
+.left-container{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+.right-container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+}
+.mid-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Head_prev{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 2rem;
+
+
+}
+.Head_prev img{
+    width: 100%;
+    height: 100%;
+}
+.AboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+    justify-content: center;
+
+}
+.AboutUs p{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 32px ;
+    font-family: Inter , sans-serif;
+    color: #222222;
+}
+.AboutUs h1{
+    font-size: 17px;
+    color: #222222;
+    font-family: Azeret Mono Bold,sans-serif;
+}
+.menu_main{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    background: #E9E9E3;
+}
+.menu_left{
+    padding-top: 10rem;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5rem;
+}
+.menu_left p{
+    margin-top: -3rem;
+    font-size: 32px ;
+    font-family: Inter,sans-serif;
+}
+.menu_left h1{
+    font-size: 18px ;
+    font-family: Azeret Mono Bold,sans-serif;
+}
+.menu_right{
+    padding-top: 10rem;
+    padding-bottom:10rem ;
+}
+.menu_button{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 5rem;
+    gap: 1rem;
+}
+.menu_button button{
+    padding: 1rem 2rem;
+    background: inherit;
+    border: 2px solid #6F6F64;
+}
+.menu_button button:hover{
+    background: #6F6F64;
+    color: #fff;
+}
+.Our_main{
+    background: #AA9E54;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 15rem;
+    padding-top: 6rem;
+}
+.Our_pin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 0.3rem;
+}
+.Our_pin h1{
+    font-family: Azeret Mono Bold,sans-serif;
+    font-size: 17px;
+}
+.Our_pin p{
+    font-size: 25px ;
+    font-family: Inter,sans-serif;
+}
+.Our_Img{
+    display: flex;
+    justify-content: center;
+    padding:5rem;
+    gap: 2.5rem;
+
+}
+.Our_left_img{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.4rem;
+}
+.Our_right_img{
+    width: 50%;
+}
+.Our_right_img img{
+    width: 100%;
+}
+.footerr{
+    color: #D27487;
+    background: #4A2B33;
+    display: flex;
+    justify-content: space-around;
+    height: 20rem;
+    align-items: center;
+}
+.footerr h1{
+    font-family: Azeret Mono ,sans-serif;
+    font-size: 47px ;
+    width: 25%;
+}
+.footerr p{
+    width: 35%;
+    font-family: Inter,sans-serif;
+    font-size: 18px ;
+}
+.footerr_bot{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 2rem auto;
+    font-family: Inter,sans-serif;
+
+}
+.footerr_bot_1{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    color: #696969;
+    font-family: Inter,sans-serif;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
